@@ -1,0 +1,59 @@
+==================================================
+QUESTION:  Who is the managing partner of Harding & Voss, and how long have they held the role?
+
+n-- loose prompt ---
+The document does not provide the name of the managing partner or information about how long they have held the role. [doc-101] only mentions that "The managing partner told the partnership that the priority for the next two years is margin, not size," but does not identify who this person is or provide details about their tenure.
+
+  refusal: False passed: False
+  UNCITED: The document does not provide the name of the managing partner or information about how long they have held the role.
+
+n-- grounded prompt ---
+The provided documents do not answer that question.
+
+The document mentions that "The managing partner told the partnership that the priority for the next two years is margin, not size" [doc-101], but it does not provide the managing partner's name or state how long they have held the role.
+
+  refusal: True passed: True
+==================================================
+QUESTION:  How does Harding & Voss's profitability compare with the Magic Circle firms?
+
+n-- loose prompt ---
+# Profitability Comparison with Magic Circle Firms
+
+The document [doc-101] does not contain information that would allow a comparison of Harding & Voss's profitability with Magic Circle firms.
+
+The annual strategy review provides details about Harding & Voss's:
+- Overall revenue ($1.24 billion)
+- Revenue growth rate (4.1%)
+- Revenue distribution by practice area
+- Write-off trends
+- Pricing strategies
+
+However, it does not disclose key profitability metrics such as:
+- Operating profit or profit margin
+- Profit per partner (PEP)
+- Profit per lawyer
+- Net income
+
+To make a meaningful profitability comparison with Magic Circle firms (typically understood to include firms like Freshfields, Slaughters, Linklaters, Allen & Company, and Clifford Chance), you would need access to financial data from those firms as well as more detailed profitability information from Harding & Voss.
+
+If you're seeking this comparison, I would recommend consulting published legal market reports, firm financial disclosures, or legal industry analysis from sources like Legal Week or The Lawyer.
+
+  refusal: False passed: False
+  UNCITED: # Profitability Comparison with Magic Circle Firms
+  UNCITED: The annual strategy review provides details about Harding & Voss's:
+  UNCITED: Overall revenue ($1.24 billion)
+  UNCITED: Revenue growth rate (4.1%)
+  UNCITED: Revenue distribution by practice area
+  UNCITED: However, it does not disclose key profitability metrics such as:
+  UNCITED: Operating profit or profit margin
+  UNCITED: Profit per partner (PEP)
+  UNCITED: Profit per lawyer
+  UNCITED: To make a meaningful profitability comparison with Magic Circle firms (typically understood to include firms like Freshfields, Slaughters, Linklaters, Allen & Company, and Clifford Chance), you would need access to financial data from those firms as well as more detailed profitability information from Harding & Voss.
+  UNCITED: If you're seeking this comparison, I would recommend consulting published legal market reports, firm financial disclosures, or legal industry analysis from sources like Legal Week or The Lawyer.
+
+n-- grounded prompt ---
+The provided documents do not answer that question.
+
+The context provided contains only information about Harding & Voss's own financial performance and strategy. It does not include any comparative data regarding Magic Circle firms' profitability or financial metrics.
+
+  refusal: True passed: True

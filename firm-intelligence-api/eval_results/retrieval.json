@@ -1,0 +1,139 @@
+{
+  "whole_document": {
+    "recall@1": 0.69,
+    "recall@3": 1,
+    "recall@5": 1,
+    "mrr": 0.845,
+    "context_words@3": 862,
+    "top_score_answerable": 0.56,
+    "top_score_unanswerable": 0.435,
+    "recall@3_by_kind": {
+      "exact-id": 1,
+      "heading-dependent": 1,
+      "lookup": 1,
+      "negation": 1,
+      "numeric": 1,
+      "rare-term": 1,
+      "title-dependent": 1
+    },
+    "missed@3": []
+  },
+  "fixed_100": {
+    "recall@1": 0.483,
+    "recall@3": 0.793,
+    "recall@5": 0.897,
+    "mrr": 0.61,
+    "context_words@3": 273,
+    "top_score_answerable": 0.602,
+    "top_score_unanswerable": 0.492,
+    "recall@3_by_kind": {
+      "exact-id": 1,
+      "heading-dependent": 0.5,
+      "lookup": 0.78,
+      "negation": 0.67,
+      "numeric": 0.89,
+      "rare-term": 1,
+      "title-dependent": 0.75
+    },
+    "missed@3": [
+      "q02",
+      "q05",
+      "q08",
+      "q09",
+      "q22",
+      "q26"
+    ]
+  },
+  "fixed_overlap_25": {
+    "recall@1": 0.517,
+    "recall@3": 0.931,
+    "recall@5": 0.966,
+    "mrr": 0.668,
+    "context_words@3": 277,
+    "top_score_answerable": 0.613,
+    "top_score_unanswerable": 0.497,
+    "recall@3_by_kind": {
+      "exact-id": 1,
+      "heading-dependent": 1,
+      "lookup": 0.89,
+      "negation": 1,
+      "numeric": 1,
+      "rare-term": 1,
+      "title-dependent": 0.75
+    },
+    "missed@3": [
+      "q02",
+      "q09"
+    ]
+  },
+  "sentences_100": {
+    "recall@1": 0.414,
+    "recall@3": 0.759,
+    "recall@5": 0.897,
+    "mrr": 0.567,
+    "context_words@3": 262,
+    "top_score_answerable": 0.596,
+    "top_score_unanswerable": 0.5,
+    "recall@3_by_kind": {
+      "exact-id": 1,
+      "heading-dependent": 0.5,
+      "lookup": 0.78,
+      "negation": 0.67,
+      "numeric": 0.89,
+      "rare-term": 1,
+      "title-dependent": 0.5
+    },
+    "missed@3": [
+      "q02",
+      "q03",
+      "q04",
+      "q08",
+      "q09",
+      "q20",
+      "q22"
+    ]
+  },
+  "sections_plain": {
+    "recall@1": 0.31,
+    "recall@3": 0.862,
+    "recall@5": 0.931,
+    "mrr": 0.54,
+    "context_words@3": 186,
+    "top_score_answerable": 0.609,
+    "top_score_unanswerable": 0.523,
+    "recall@3_by_kind": {
+      "exact-id": 1,
+      "heading-dependent": 0.5,
+      "lookup": 0.78,
+      "negation": 1,
+      "numeric": 1,
+      "rare-term": 1,
+      "title-dependent": 0.75
+    },
+    "missed@3": [
+      "q02",
+      "q04",
+      "q09",
+      "q22"
+    ]
+  },
+  "sections_contextual": {
+    "recall@1": 0.862,
+    "recall@3": 1,
+    "recall@5": 1,
+    "mrr": 0.931,
+    "context_words@3": 197,
+    "top_score_answerable": 0.66,
+    "top_score_unanswerable": 0.496,
+    "recall@3_by_kind": {
+      "exact-id": 1,
+      "heading-dependent": 1,
+      "lookup": 1,
+      "negation": 1,
+      "numeric": 1,
+      "rare-term": 1,
+      "title-dependent": 1
+    },
+    "missed@3": []
+  }
+}
